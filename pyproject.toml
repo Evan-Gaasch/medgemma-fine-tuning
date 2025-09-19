@@ -1,0 +1,21 @@
+[project]
+name = "image_text_to_text_tuner"
+version = "2025.0.0"
+requires-python = ">= 3.9"
+description = "Automatic ImageTextToText fine tuner, not very robust"
+dependencies = [
+    "torch",
+    "PIL",
+    "numpy",
+    
+
+]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/foredoc/medgemma-dev"
+
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
